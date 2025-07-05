@@ -1,9 +1,15 @@
 {
   "name": "-r2e-aute-group-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright automation testing framework for Group 2 R2E project",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "install:browsers": "playwright install"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
