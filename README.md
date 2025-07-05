@@ -16,6 +16,8 @@ npm run install:browsers
 
 ## Available Scripts
 
+- `npm run build` - Build TypeScript to JavaScript
+- `npm run build:check` - Type-check without emitting files
 - `npm test` - Run all tests
 - `npm run test:headed` - Run tests with browser UI visible
 - `npm run test:debug` - Run tests in debug mode

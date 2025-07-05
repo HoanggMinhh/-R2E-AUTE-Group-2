@@ -4,6 +4,8 @@
   "description": "Playwright automation testing framework for Group 2 R2E project",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "build:check": "tsc --noEmit",
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
